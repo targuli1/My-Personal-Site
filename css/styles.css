@@ -1,0 +1,141 @@
+body{
+    color: #40514e;
+    margin: 0;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+}
+h1{
+    font-size: 5.625rem;
+    line-height: 2;
+   margin: 50px auto 0 auto;
+   font-family: 'Sacramento', cursive;
+   color: #66BFBF;
+}
+h2{
+    font-size: 2.5 rem;
+    font-family: 'Montserrat', sans-serif;
+    color: #66BFBF;
+    padding-bottom: 10px;
+}
+h3{
+    font-family: 'Montserrat', sans-serif;
+    color: #11999E;
+}
+a{
+    color: #11999E;
+    font-family: 'Montserrat', sans-serif;
+    margin: 10px 20px;
+    text-decoration: none;
+}
+
+a:hover{
+    color: #eaf6f6;
+}
+
+.top-container{
+    background-color: #e4f9f5;
+    position: relative;
+    padding-top: 100px;
+}
+.middle-container{
+    margin: 100px 0;
+}
+.bottom-container{
+    background-color: #66bfbf;
+    padding-top: 2.5%;
+    padding-bottom: 1.25%;
+    text-align: center;
+}
+
+.pro{
+    text-decoration: underline;
+}
+
+.bottom-cloud{
+    position: absolute;
+    left: 250px;
+    bottom: 300px;
+}
+.top-cloud{
+    position: absolute;
+    right: 300px;
+    top: 50px;
+}
+.profile-picture{
+    height: 200px;
+    width: 200px;
+}
+
+.team{
+    height: 350px;
+    width: 350px;
+}
+
+.job-title{
+    font-weight: normal;
+}
+.skill-row{
+    width: 50%;
+    margin: 100px auto 100px auto;
+    text-align: left;
+    line-height: 2.0;
+}
+.personal-skill{
+    width: 25%;
+    float: right;
+    margin-left: 30px;
+}
+.computer{
+    width: 25%;
+    float: left;
+    margin-right: 30px;
+
+}
+
+.myButton {
+	box-shadow:inset 0px -3px 7px 0px #29bbff;
+	background:linear-gradient(to bottom, #70bfbf 5%, #66bfbf 100%);
+	background-color:#70bfbf;
+	border-radius:8px;
+	border:1px solid #0b0e07;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:15px;
+	padding:9px 23px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #263666;
+}
+.myButton:hover {
+	background:linear-gradient(to bottom, #66bfbf 5%, #70bfbf 100%);
+	background-color:#66bfbf;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+
+.contact-me{
+    line-height: 2;
+    margin-bottom: 5%;
+
+}
+
+hr{
+    height: 0px;
+    border-style: none;
+    border-top-style: dotted;
+    background-color: none;
+    border-color: grey;
+    border-width: 5px;
+    width: 5%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.copyright{
+    color: #eaf6f6;
+    font-size: 0.75rem;
+    padding: 20px 0;
+}
